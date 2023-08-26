@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><style>
+    .hea{
+        display: flex;
+        justify-content: space-around;
+        width: 100vw;
+        height: 40px;
+        align-items: center;
+        background-color: black;
+     }
+     .sanadres{
+        height: 20px;
+        width: 100px;
+     }
+     .link{
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+     }
+      
+     *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+     }
+     .button1{
+        border-radius: 2px;
+
+        color: white;
+        background-color: black;
+        font-size: 10px;
+        height: 20px;
+        width: 60px;
+        border: 1px solid white;
+     }
+     .button1:hover{
+      background-color: white;
+      color: black;
+     }
+     .af::after{  
+        content: "|";
+        font-size: 10px;
+        color:white;
+        position: absolute;
+        top: 5px;
+        left:  40px;
+     }
+     .af{
+        margin: 0;
+        padding: 0;
+     }
+     .block{
+        
+        background-image: url(city.jpg);
+        width: 100vw;
+        height: 100vh;
+        background-size: cover;
+        
+     }
+     .gta{
+        margin-left: 25px;
+        margin-top: 60px;
+     }
+     .gtaonline{
+        margin-top: 60px;
+     }
+     .h1{
+        font-size: 50px;
+        color: white;
+        margin-left: 25px;
+     }
+     .block1{
+        display: flex;
+     }
+     .p1{
+        margin-left: 25px;
+        color: white;
+        font-size: 30px;
+     }
+     .button3{
+        background: none;
+        width: 300px;
+        height: 50px;
+        color: white;
+        border: 2px solid black ;
+        border-radius: 2px;
+        font-size: 20px;
+        margin-left: 25px;
+        margin-top: 10px;
+
+     }
+     .button3:hover{
+      background-color: white;
+      color: black;
+     }
+     .middle{
+        display: flex;
+        height: 100vh;
+        width: 100vw;
+        
+        background-image: url(fonblock2.jpg);
+        background-size: cover;
+     }
+     .person{
+        height: 600px;
+        width: 600px;
+        margin-top: 25px;
+        
+     } 
+     .h2{
+        font-size: 50px;
+        color: white;
+     } 
+     .p2{
+        color: white;
+        font-size: 30px;
+     } 
+     .p3{
+        color: white;
+        font-size: 30px;
+        margin-top: 20px;
+     }
+     .gta6{
+        margin-top: 25px;
+     } 
+     .middlehead{
+        display: flex;
+        height: 100vh;
+        width: 100vw;
+        
+        background-image: url(fonblock3.jpg);
+        background-size: cover;
+     } 
+     .middle3{
+        margin-left: 20px;
+        margin-bottom: 10px;
+     }
+     .person1{
+        height: 625px;
+        width: 625px;
+        margin-top: 25px;
+     }
+     .button5{
+      
+        height: 10px;
+        width: 10px;
+        margin-top: 15px;
+        margin-left: 250px;
+       
+     }
+     .button6{
+
+        height: 10px;
+        width: 10px;
+        margin-top: 15px;
+     }
+
+     .coddy{
+        height: 30px;
+        width: 100vw;
+        display: flex;
+        
+        background-color: black;
+     }
+     .coddy1{
+        display: flex;
+        justify-content: right;
+     }
+     
+     .slider-wrapper {
+
+  position: relative;
+  overflow: hidden;
+  background-color: black;
+  left: 100px;
+
+}
+
+.slides-container {
+  height: 600px;
+  width: 100%;
+  display: flex;
+  overflow: scroll;
+  scroll-behavior: smooth;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow-x: scroll;
+}
+.slides-container::-webkit-scrollbar {
+  display: none;
+}
+
+.slide-arrow {
+
+   position: absolute;
+   height: 50px;
+   width: 50px;
+  
+
+  cursor: pointer;
+  background-color: white;
+  
+}
+
+
+
+#slide-arrow-prev {
+  left: 1300px;
+  padding-left: 4px;
+  border-radius: 0 32px 32px 0;
+  transform: rotate(180deg);
+ 
+}
+
+#slide-arrow-next {
+  left: 1400px;
+  padding-left: 12px;
+  border-radius: 0 32px 32px 0;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  flex: 1 0 100%;
+}
+.section{
+   background-color: black;
+   height: 100vh;
+   width: 100vw;
+
+}
+.middlehead1{
+   display: flex;
+        height: 100vh;
+        width: 100vw;
+        background-color: black;
+
+
+}
+.h8{
+   color: white;
+   font-size: 40px;
+   margin-top: 150px ;
+
+}
+.p9{
+   color: white;
+   font-size: 20px;
+}
+.china{
+   margin-left: 25px;
+}
+.china1{
+   margin-left: 25px ;
+}
+.negr{
+   margin-left: 10px;
+
+}
+.negr3{
+   margin-right: 20px;
+}
+.china2{
+   margin-left: 25px;
+   margin-top: 30px;
+   margin-right: 20px;
+}
+.negr4{
+   margin-left: 10px;
+   margin-top: 30px;
+   margin-right: 10px;
+}
+.negr5{
+   margin-top: 25px;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+.h9{
+   color: white;
+   margin-left: 20px;
+}
+.section3{
+   background-color: black;
+}
+.footer{
+   display: flex;
+   justify-content:space-around;
+}
+.block11{
+   background-color: black;
+   height: 600px;
+   width:400px;
+   margin-left: 20px;
+   position: relative;
+}
+.gtaonlinefon{
+   height: 300px;
+   width: 600px;
+   position: relative;
+   
+   
+}
+.gtaonlinejestky{
+   height: 200px;
+   left: 200px;
+   top: 25px;
+
+   position: absolute;
+}
+.h19{
+   margin-top: 10px;
+   color: white;
+   font-size: 30px;
+
+}
+.p10{
+   margin-top: 10px;
+   color: white;
+   font-size: 25px;
+}
+.p11{
+   color: white;
+   font-size: 30px;
+   margin-top: 10px;
+}
+.qwerty{
+   margin-top: 10px;
+}
+.button11{
+   color: white;
+   background: none;
+   width: 400px;
+   height: 30px;
+   border: 1px solid white;
+   font-size: 10px;
+   margin-top: 13px;
+   margin-right: 25px;
+}
+.button11:hover{
+   background-color: white;
+   color: black;
+}
+.button12{
+   color: white;
+   background: none;
+   width: 400px;
+   height: 30px;
+   border: 1px solid white;
+   font-size: 10px;
+
+   
+}
+.button12:hover{
+   background-color: white;
+   color: black;
+}
+body{
+   font-family: 'Heebo', sans-serif;
+   font-family: 'Poppins', sans-serif;
+   overflow-x: hidden;
+}
+.p13{
+   color: white;
+   font-size: 20px;
+   
+}
+.model{
+        background-color: black;
+        width: 100vw ;
+        height: 2800px;      
+        }
+        .text1{
+            color: white;
+            font-size: 25px;
+            text-align: center;
+
+        }
+        .picrure{
+            height: 600px;
+            width: 100vw;
+        }
+        .pirure1{
+            height: 400px;
+            width: 600px; 
+            margin-left: 450px;
+        }
+
+        
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .poher{
+         color: white;
+         height: 25px;
+         width: 50px;
+         border-radius: 10px;
+         background-color: aqua;
+        }
+        @media (max-width: 896px ) {
+         .block{
+            height: 400px;
+
+         }
+         .middle{
+            height: 40vh;
+         }
+         .middlehead{
+            height: 50vh;
+         }
+         .section{
+            height: 30vh;
+         }
+         .middlehead1{
+            height: 40vh;
+            
+         }
+         .footer{
+            display: flex;
+            flex-direction: column;
+            
+         }
+         .block11{
+            margin-left: 100px;
+         }
+      }
+
+
+         
+
+    </style>
+
+</head>
+<body>
+    <header class="hea">
+    <div class="af"><img src="logo4.svg" alt="" class="rocstar" height="20" width="20"></div>
+    <img src="logo1.svg" alt="" class="sanadres">
+    <a href="" class="link">
+        Описание</a>
+    <a href="" class="link">GTA Online </a>
+    <a href="" class="link"> GTA+</a>
+    <a href="" class="link">Руководства по игре</a>
+    <a href="" class="link">Поддержка</a>
+    <button class="button1">КУПИТЬ</button>
+    <img src="logo3.png" alt="" height="20">
+    </header>
+    <main>
+        <section>
+        <div class="block">
+           <div class="block1"> <img src="gta.svg" alt="" height="200" class="gta">
+            <img src="gtaonline.svg" alt="" height="200" class="gtaonline"></div>
+            <h1 class="h1">На PlayStation 5 и Xbox <br>Series X|S.</h1>
+            <p class="p1">Культовые блокбастеры Grand Theft Auto V и GTA<br> Online.</p>
+            <div class="block1">            <button class="button3">СМОТРИТЕ ТРЕЙЛЕР</button>
+                <button class="button3">КУПИТЬ СЕЙЧАС</button>
+            </div>
+        </div>
+        </section>
+        <section>
+            <div class="middle">
+                <div class="middle1"><img src="person.png" alt="" class="person"></div>
+                <div class="middle2">                <img src="gta.svg" alt="" class="gta6" height="200">
+                    <h1 class="h2">
+                        Добро пожаловать в <br>Лос-Сантос</h1>
+                    <p class="p2">Чтобы отделаться от внезапно навалившихся проблем, уличному<br> ловчиле, отставному грабителю банков и вселяющему ужас<br> психопату придется провести серию дерзких ограблений и<br> выжить в большом городе, где им нельзя доверять никому, а тем<br> более друг другу.</p>
+                   </div>
+
+            </div>
+        </section>
+        <section>
+            <div class="middlehead">
+                <div class="middle3">
+                    <img src="gtaonline.svg" alt="" class="gta7"height = "200">
+                    <h1 class="h2">Grand Theft Auto Online</h1>
+                    <p class="p2">Окунитесь в мир GTA Online – динамичной и постоянно<br> меняющейся сетевой вселенной, в которой могут находиться <br>одновременно до 30 игроков. Здесь вы сможете пройти путь от<br> мелкого уличного бандита до главаря криминальной империи.</p>
+                    <p class="p3">Теперь вам доступны новые мощные модификации для<br> транспорта, карьера персонажа, а также многочисленные <br>улучшения игрового процесса, дополнения и бонусные.</p>
+
+                </div>
+                <div class="middle4"><img src="fon3.png" alt="" class="person1"></div>
+            </div>
+        </section>
+        <section>
+            <div class =  "coddy">
+          
+            <button class="slide-arrow" id="slide-arrow-prev">
+             
+             </button>
+             <button class="slide-arrow" id="slide-arrow-next">
+             
+             </button>
+
+               </div>
+        </section>
+        <section class="section">
+         <div class="slider-wrapper">
+
+            <ul class="slides-container" id="slides-container">
+              <li class="slide sl1"> <img src="picture1(2)jpg.jpg" alt=""height = "500"></li>
+              <li class="slide sl2"><img src="picture2(2).jpg" alt="" height="500"></li>
+              <li class="slide sl3"><a class="poker"> <img src="picture3(2).jpg" alt="" height="500"></a></li>
+              <li class="slide sl4"> <img src="picture4(2).avif" alt="" height="500"></li>
+              <li class="slide sl5"> <img src="picture5(2).jpg" alt="" height="500"></li>  
+              <li class="slide sl6"><img src="picture6(2).jpg" alt="" height="500"> </li>
+              <li class="slide sl7"><img src="picture7(2).jpg" alt="" height="500"></li>
+              
+            </ul>
+          </div>
+         </section>
+         <section>
+            <div class="middlehead1">
+               <div><img src="fonpicturechina.jpg" alt=""height="500" class="china"></div>
+               <div class="china1"><h1 class="h8">Новые эксклюзивные материалы</h1>
+               <p class="p9">Загляните в автомастерскую Hao’s Special Works, чтобы получить доступ к новым элитным модификациям и улучшениям для транспорта. </p></div>
+            </div>
+         </section>
+         <section>
+            <div class="middlehead1">
+               <div class="negr"><h1 class="h8">
+                  Новая возможность «Карьера персонажа»</h1><p class="p9">Начните свой путь в GTA Online, сразу имея все необходимое. Выберите одну из четырех карьер – байкер, шеф, владелец ночного клуба или торговец оружием, – а также недвижимость, транспорт и снаряжение.</div>
+               <div class="negr1"><img src="fonblock4negra.jpg" alt="" height="500" class="negr3"></div>
+            </div>
+         </section>
+         <section>
+            <div class="middlehead1">
+               <div><img src="fonblockjestkoepor.jpg" alt="" class="china" height="500"></div>
+               <div class="china2"><h1 class="h8">Новый дизайн меню</h1> <p class="p9">Получите мгновенный доступ ко всем возможностям GTA Online прямо из главного меню, включая последние и самые популярные обновления.</p></div>
+            </div>
+         </section>
+         <section>
+            <div class="middlehead1">
+               <div class="negr4"><h1 class="h8">Потрясающая графика</h1>
+               <p class="p9">Поддержка разрешения до 4K, частота обновления до 60 кадров в секунду, повышенная дальность прорисовки и качество текстур, HDR, трассировка лучей и не только.</p></div>
+               <div><img src="fonblockjesstkoylossantos.jpg" alt="" class="negr3" height="500"></div>
+            </div>
+         </section>
+         <section>
+            <div class="middlehead1">
+               <div><img src="fonblockmachinaxyin.jpg" alt="" class="china" height="500"></div>
+               <div class="china2"><h1 class="h8">Ускоренная загрузка</h1>
+               <p class="p9">Почти мгновенный доступ к игровому миру Лос-Сантоса и округа Блэйн, которые теперь загружаются как никогда быстро.</p></div>
+            </div>
+         </section>
+         <section>
+            <div class="middlehead1">
+
+               <div class="negr5"><h1 class="h8">Тактильное управление</h1><p class="p9">Благодаря новому беспроводному контроллеру DualSense для PlayStation 5 с тактильной отдачей и динамическим сопротивлением вы сможете почувствовать каждый игровой момент: направления на источник урона, погодные явления.</p></div>
+               <div><img src="fonmauklgey.jpg" alt="" class="negr3" height="500"></div>
+
+            </div>
+         </section>
+         <section>
+            <div class="middlehead1">
+               <div><img src="fonblocktrevorpid.jpg" alt="" class="china" height="500"></div>
+               <div class="china2"><h1 class="h8">3D-звук</h1><p class="p9">Все звуки Лос-Сантоса и округа Блэйн воссозданы с потрясающей точностью, от гула двигателя украденного суперкара и шума перестрелки по соседству до рева вертолета над головой.</p></div>
+            </div>
+         </section>
+        
+        <footer class="section3">
+         <h1 class="h9">Купить сейчас</h1>
+         <div class="footer">
+            <div class="block11">
+               <img src="fongtaonline.jpg" alt="" class="gtaonlinefon">
+               <img src="jestkaygtaonine.jpg" class="gtaonlinejestky">
+               <h1 class="h19">Grand Theft Auto Online</h1>
+               <p class="p10">Включает GTA Online</p>
+               <img src="ps5.svg" alt="" height="30" class="qwerty">
+            
+               <p class="p11">В игре можно докупить сюжетный режим</p>
+               <button class="button11">
+                  ВЫБРАТЬ ПЛАТФОРМУ</button>
+            </div>
+            <div class="block11">
+               <img src="fonkartaxyina.jpg" alt="" class="gtaonlinefon">
+               <img src="jestkaygta5.jpg" class="gtaonlinejestky">
+               <h1 class="h19">Grand Theft Auto V</h1>
+               <p class="p13">Включает сюжетный режим GTA V и GTA Online</p>
+               <img src="ps5.svg" alt="" height="30" class="qwerty">
+            
+               <p class="p11">В игре можно докупить сюжетный режим</p>
+               <button class="button12">
+                  ВЫБРАТЬ ПЛАТФОРМУ</button>
+            </div>
+         </div>
+        </footer>
+
+         
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Poppins:ital,wght@1,200&display=swap" rel="stylesheet">
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Poppins:ital,wght@1,200&display=swap" rel="stylesheet">
+             <dialog class="model">
+                 <img src="picture3(2).jpg" alt=""class="picrure">
+                 <p class="text1">Игровые обновления</p>
+                 <h1 class="text1">«Преступные организации»</h1>
+                 <p class="text1">Может показаться, что дела идут неважно: по Сан-Андреасу<br> ударила жара, цены на бензин подскочили до небес, а <br>экономика оказалась на грани коллапса...</p>
+                 <p class="text1">Но это ведь Лос-Сантос, где каждая финансовая катастрофа<br> имеет положительную сторону. Подпольный бизнес процветает,<br> и у игроков есть масса возможностей, чтобы заработать – в <br>очередном обновлении «Преступные организации», которое<br> доступно в GTA Online на PlayStation 5, PlayStation 4, Xbox Series<br> X|S, Xbox One и PC.</p>
+                 <img src="window1.jpg" alt="" class="pirure1">
+                 <p class="text1">Предприниматели всех мастей меняют род деятельности, чтобы<br> приспособиться к новым условиям рынка: </p>
+                 <p class="text1">Шефов ждут новые задания по добыче груза, которые можно<br> запустить прямо из офиса, как и ежедневные задания по<br> экспорту разнородного товара. Вы также познакомитесь с<br> новым персоналом склада, в том числе с управляющей по имени <br>Лупе, которая готова рассмотреть самые разнообразные<br> деловые предложения.</p>
+                 <p class="text1">Президенты мотоклубов теперь могут увеличить клубную<br> выручку. Поговорите с Синди, чтобы восполнить припасы для<br> бара и открыть двери для любимых гостей в кожаных прикидах.<br> Владельцы мотомастерских теперь смогут украшать байки<br> другим жителям Лос-Сантоса, выполняя для них платные заказы.<br> Не нравится законопослушная работа? Не беда: вас ждут новые <br>задания клабхауса, где вы сможете как следует замарать руки.</p>
+                 <p class="text1">Владельцы ночных клубов смогут переговорить с Тони Принсом <br>– или же воспользоваться офисным компьютером, – чтобы <br>запустить новые задания клуба. В самом модном заведении<br> города часто возникают проблемы: назойливые папарацци,<br> хулиганы на входе, переутомившиеся ВИП-персоны... Если же вам<br> нужен товар, просто позвоните Йохану.</p>
+                 <p class="text1">Вниманию всех торговцев оружием: у вас заканчиваются<br> припасы? Теперь вам доступны новые задания по добыче сырья,<br> чтобы в вашей подземной крепости всегда было все<br> необходимое. Хотите ускорить исследовательские проекты в <br>бункере? Позвоните агенту 14. Ищете способы расширить<br> торговую сеть? Он поможет вам заключить контракт с «Амму<br>-Нацией», по условиям которого вы сможете продавать им<br> лишние детали для оружия.</p>
+                 <img src="window2.jpg" alt="" class="pirure1">
+                 <h1 class="text1">Агент ОСГ возвращается в<br> операции «Изъятие улик»</h1>
+                 <p class="text1">Не только водители на Шоссе 1 заметили повышение цен на<br> бензин – агент ОСГ из ЦУР тоже следит в оба. Сквозь ядовитые <br>бензиновые пары ему удалось разглядеть преступный сговор, и <br>теперь он уверен, что семейство Дагганов объединилось с ФРБ,<br> чтобы накрутить цены на заправках. Последствия – пугающие,<br> информации – не так уж много, но очень скоро агент ОСГ с вами <br>свяжется.</p>
+                 <img src="window3.jpg" alt=""class="pirure1">
+                 <h1 class="text1">
+                     Улучшения игрового<br> процесса</h1>
+                     <p class="text1">В обновление «Преступные организации» вошли многие <br>улучшения, которые были предложены поклонниками на нашем<br> сайте в разделе обратной связи.</p>
+                     <p class="text1">Специально для тех, кто ценит личное пространство, мы сделали <br>рабочие компьютеры доступными в сеансах по приглашениям.<br>  Теперь вы сможете брать задания по продаже и добыче груза в <br>любое удобное время, не думая об опасностях свободного<br> рынка. А тех, кому конкуренция по душе, в открытых сеансах <br>будут ждать дополнительные бонусы.</p>
+                     <p class="text1">Теперь игроки могут полностью восполнить боеприпасы для<br> всего оружия, не выходя из меню взаимодействия. Так что не <br>тратьте время на разглядывание витрин с боеприпасами. Купите<br> все необходимое за один присест в меню взаимодействия.<br> Выберите тип боеприпасов «Все», пополните запасы и<br> возвращайтесь в бой. И неважно, чем вы занимаетесь,<br> – натягиваете броню во время перестрелки или оказываете себе<br> первую помощь, набивая рот пятнадцатым по счету батончиком <br>EgoChaser, – теперь вы можете делать это намного быстрее<br> через селектор оружия.</p>
+                     <p class="text1">Улучшения, запрошенные игроками, также включают:</p>
+                 <ul>
+                     <li><p class="text1">Массивное перераспределение доходов за различные <br>игровые занятия, чтобы у игроков было больше свободы и<br> выбора в построении своей криминальной карьеры</p></li>
+                     <li><p class="text1">Изменение параметров оружия и средств противодействия<br> на Oppressor Mk II</p></li>
+                     <li><p class="text1">Повышение максимального числа стандартных объектов<br> недвижимости с 8 до 10, что также добавит дополнительное<br> место для вашего транспорта в гараже.</p></li>
+                 </ul>
+                 <img src="window5.jpg" alt="" class="pirure1">
+                 <h1 class="text1">Новый транспорт и не только</h1>
+                 <p class="text1">Обновление «Преступные организации» также добавит в игру <br>новую партию суперкаров, спорткаров и маслкаров. Что бы вы<br> ни искали – транспорт для военной операции или просто крутую<br> тачку, которая может произвести такое же впечатление, как<br> обвал цен на рынке крипты, – вам будет достаточно лишь<br> заглянуть в ближайший автосалон. Вас также ждет любимое<br> детище Hao’s Special Works – прокачанный Stirling GT, и две<br> новые тачки, на которые можно установить модификации Имани<br> в мастерской агентства.</p>
+                 <img src="window4.jpg" alt=""class="pirure1">
+                 <p class="text1">Жители Лос-Сантоса знают, что стареть нужно элегантно – как<br> изысканное вино. Изысканное вино, которое разбавили<br> формальдегидом и залили смолой. Именно поэтому давно <br>любимые вами модели теперь получили вторую жизнь.<br> Отправляйтесь в ближайший автосалон, чтобы найти Pegassi<br> Zentorno, Benefactor Stirling GT, Grotti Turismo R и другие машины <br>с новыми модификациями и раскрасками.</p>
+                 <p class="text1">Кроме того, в «Амму-Нацию» поступили прецизионные винтовки<br> – дальнобойное оружие с повышенной точностью для быстрой и<br> аккуратной стрельбы.</p>
+                 <button class="poher">ginger</button>
+               </dialog>
+
+        
+          <script>
+            const slidesContainer = document.getElementById("slides-container");
+const slide = document.querySelector(".slide");
+const prevButton = document.getElementById("slide-arrow-prev");
+const nextButton = document.getElementById("slide-arrow-next");
+
+nextButton.addEventListener("click", () => {
+  const slideWidth = slide.clientWidth;
+  slidesContainer.scrollLeft += slideWidth;
+});
+
+prevButton.addEventListener("click", () => {
+  const slideWidth = slide.clientWidth;
+  slidesContainer.scrollLeft -= slideWidth;
+});
+const poker = document.querySelector('.poker');
+         const model = document.querySelector('.model');
+         const poher = document.querySelector('.poher');
+
+         poker.addEventListener('click', ()=>{
+            model.showModal();
+         })
+         poher.addEventListener('click', ()=>{
+            model.close();
+         })
+          </script>
+          
+
+
+</body>
+</html>
